@@ -1,4 +1,4 @@
-from factorial import factorial
+from factorial.factorial import factorial
 
 def test_factorial_1():
     """ some simple numbers"""    
