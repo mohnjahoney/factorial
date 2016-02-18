@@ -2,7 +2,7 @@
 
 import numpy as np
 
-def factorial_of_a_number(N):
+def factorial(N):
     """
     Given an integer N, compute N factorial.
     N! = N * (N-1) * ... * 2 * 1.
@@ -30,8 +30,7 @@ def factorial_of_a_number(N):
     - nosetest
     """
     
-    Nfact = 24
-    return Nfact
+    return np.prod(range(1,N+1))
     
     
     
